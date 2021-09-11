@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang=en>
+<style>
+    .purple-text{
+        color: #9370DB;
+        font-family: sans-serif;
+        font-size: 16px;
+    }
+    .teal-text{
+        color:aquamarine;
+        font-family: monospace;
+        font-size: 12px;
+    }
+    .chartruse-text{
+        color:rgb(39, 22, 114);
+        font-family: Georgia;
+        font-size: 10px;
+    }
+    .background-color{
+        background-color:burlywood;
+    }
+    header{
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    footer{
+        text-align: center;
+    
+    }
+    .button{
+        background-color: black;
+        color: white;
+    }
+    input[type=text]{
+        border: 2px solid purple;
+        text-align: justify;
+        font-family: fantasy,sans-serif;
+    }
+    input[type=number]{
+        border: 2px solid darkgreen;
+        text-align: justify;
+    }
+    input[type=email]{
+        border: 2px solid darkorange;
+        text-align: justify;
+        font-family: fantasy,sans-serif;
+    }
+</style>
+
+<head>
+    <title>Tables</title>
+</head>
+<body class= "background-color">
+    <header>
+        <h1 class="purple-text">Michael Agejew -- ITIS3135</h1>
+    </header>
+<main>
+    <h1 class="teal-text">Would you like to recieve our news letter?</h1>
+   <form action="#">
+    <input type="radio" id="yes" name="yes" value="" checked >
+    <label for="yes" >Yes</label>
+    <input type="radio" id="no" name="yes" value="" >
+    <label for="no" >No</label><br>
+       <label for="name">Name:</label>
+       <input type="text" id="name" name="name" required placeholder="Example User"><br>
+       <label for="phone">Phone Number:</label>
+       <input type="number" id="phone" name="phone" maxlength="10" size="10" required placeholder="XXX-XXX-XXXX"><br> 
+       <label for="email">Email:</label>
+       <input type="email" id="email" name="email" required placeholder="example@example.com"><br>
+       <p>How did you hear about us:</p>
+       <input type="checkbox" id="friend" name="friend">
+       <label for="friend">Friend</label><br>
+       <input type="checkbox" id="family" name="family">
+       <label for="family">Family</label><br>
+       <input type="checkbox" id="other" name="other">
+       <label for="other">Other</label><br>
+       <label for="education">Choose your level of education:</label>
+       <select name="education" id="education">
+           <option value="highschool">High School</option>
+           <option value="some">Some College</option>
+           <option value="grad">Graduated College</option>
+           <option value="post">Post College Education</option>
+           <option value="other">Other</option>
+       </select><br>
+       <input type="submit" value="Submit" class="button">
+     </form>
+</main>
+<footer>
+    <br>
+    <nav class= "teal-text">
+        <a href="https://webpages.uncc.edu/magejew" target="_blank">Charlotte.edu</a>
+         | 
+        <a href="https://michaelagejew.github.io" target="_blank"> Github</a>
+         | 
+        <a href="michaelagejew.github.io/ITIS3135" target="_blank">ITIS3135 Github Pages</a>
+         | 
+        <a href="https://freecodecamp.org/magejew" target="_blank">freecodecamp</a>
+        |
+        <a href="https://michaelagejew.github.io/tables/" target="_blank">Tables Page</a>   
+    </nav>
+    <br>
+    <p>page built by Agejew Designs</p>
+
+</footer>
+</body>
+ </html>
